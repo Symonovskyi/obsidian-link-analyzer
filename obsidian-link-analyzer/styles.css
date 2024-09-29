@@ -1,0 +1,95 @@
+/* Table */
+.ola-view-table {
+    border-spacing: 0;
+    border: none;
+}
+
+.ola-view-table>thead>tr,
+.ola-view-table>tbody>tr {
+    text-align: left;
+}
+
+.ola-view-table>tbody>tr:hover {
+    background-color: var(--table-row-background-hover);
+}
+
+.ola-view-table>thead>tr>th {
+    font-weight: 700;
+    font-size: larger;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid;
+    text-align: center;
+}
+
+.ola-view-table>tbody>tr>td {
+    text-align: left;
+    border-top: 1px solid var(--table-border-color);
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    font-weight: 400;
+}
+
+.ola-view-table>tbody>tr>td:not(:last-child),
+.ola-view-table>thead>tr>th:not(:last-child) {
+    border-right: 1px solid var(--table-border-color);
+}
+
+.ola-view-table>tbody>tr>td.index,
+.ola-view-table>tbody>tr>td.outgoingCount,
+.ola-view-table>tbody>tr>td.incomingCount {
+    text-align: center;
+    width: 1%;
+}
+
+/* Statistics */
+
+
+.stats-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-transform: lowercase;
+    margin-top: 20px;
+}
+
+.stats-table>thead>tr>th {
+    text-align: center;
+    text-transform: uppercase;
+    border: none;
+}
+
+.stats-table>tbody>tr>td {
+    padding: 0;
+    border: none;
+    white-space: nowrap;
+}
+
+.stats-table>tbody>tr>td:nth-child(2) {
+    padding-right: 10px;
+}
+
+.stats-table>tbody>tr>td:nth-child(3) {
+    padding-left: 10px;
+}
+
+.stats-table>tbody>tr>td:nth-child(1),
+.stats-table>tbody>tr>td:nth-child(2) {
+    text-align: right;
+}
+
+.stats-table>tbody>tr>td:nth-child(3),
+.stats-table>tbody>tr>td:nth-child(4) {
+    text-align: left;
+}
+
+.stats-table>tbody>tr>td:nth-child(2) {
+    border-right: 2px solid var(--table-border-color);
+}
+
+.stats-table>tfoot>tr>td {
+    text-align: center;
+    padding-top: 5px;
+    border: none;
+}

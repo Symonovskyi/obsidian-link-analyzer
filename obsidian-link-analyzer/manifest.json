@@ -1,0 +1,10 @@
+{
+    "id": "obsidian-link-analyzer",
+    "name": "Link Analyzer",
+    "version": "1.0.0",
+    "minAppVersion": "1.4.1",
+    "description": "An Obsidian plugin that analyzes links in markdown files and generates a summary table.",
+    "author": "Symonovskyi",
+    "authorUrl": "https://github.com/Symonovskyi",
+    "isDesktopOnly": false
+}
